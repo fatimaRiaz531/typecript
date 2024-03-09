@@ -1,7 +1,3 @@
-//lower case
-var personName = "Fatima";
-console.log("lowercase:", personName.toLowerCase());
-//upper case
-console.log("uppercase:", personName.toLocaleUpperCase());
-//title case
-console.log("titlecase:", personName.replace(/\b\w/g, function (c) { return c.toUpperCase(); }));
+var qoute = "A person who never made a mistake never tried anything new";
+var author = "Albert Einstein";
+console.log("".concat(author, " once said,\"").concat(qoute));
